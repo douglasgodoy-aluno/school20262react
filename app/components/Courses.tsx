@@ -1,8 +1,8 @@
 export default function Courses() {
     return (
-        <main className="grid gap-2 md:grid-cols-2 lg:grid-cols-3">
+        <main id="courses" className="grid gap-2 md:grid-cols-2 lg:grid-cols-3">
             <div className="bg-[#4d4d4d] rounded-lg pb-2">
-                <a href="/pages/curso_html.html">
+                <a href="/coursehtml">
                     <div>
                         <img src="/img/html.svg" alt="" />
                     </div>

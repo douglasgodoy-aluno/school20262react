@@ -7,11 +7,10 @@ export default function Header(){
         </div>
 
         <nav className="space-x-2">
-            <a href="">Home</a>
-            <a href="">Curso HTML</a>
-            <a href="">Curso CSS</a>
-            <a href="">Curso JS</a>
-            <a href="">Contato</a>
+            <a href="/.">Home</a>
+            <a href="/#courses">Cursos</a>
+            <a href="">Registrar</a>
+            <a href="/#footer">Contato</a>
         </nav>
     </header>
     )
