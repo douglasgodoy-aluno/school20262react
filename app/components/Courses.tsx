@@ -14,7 +14,7 @@ export default function Courses() {
             </div>
 
             <div className="bg-[#4d4d4d] rounded-lg pb-2">
-                <a href="/pages/curso_html.html">
+                <a href="/coursecss">
                     <div>
                         <img src="/img/html.svg" alt="" />
                     </div>
