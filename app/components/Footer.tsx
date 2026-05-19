@@ -1,6 +1,9 @@
+import MyButton from "./MyButton";
+
 export default function Footer() {
     return (
         <footer id="footer">
+
             <div className="flex justify-center space-x-8 mt-16 mb-8">
                 <svg className="h-8 fill-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
                     <path

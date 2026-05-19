@@ -1,4 +1,5 @@
 import Header from "../components/Header";
+import MyButton from "../components/MyButton";
 
 export default function page() {
 
@@ -16,6 +17,11 @@ export default function page() {
                     <li><strong>Período:</strong> 4 semanas</li>
                     <li><strong>Forma de Matrícula:</strong> Através do nosso site, preenchendo o formulário online disponível na página inicial.</li>
                 </ul>
+
+                 <MyButton> <strong>Comprar</strong>  </MyButton>
+                
+                 <MyButton bgColor="bg-red-500"> <strong>Excluir</strong>  </MyButton>
+               
             </div>
         </div>
     )

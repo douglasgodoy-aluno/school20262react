@@ -1,3 +1,5 @@
+import MyButton from "./MyButton";
+
 export default function Banner(){
     return (
         <div className="md:grid grid-cols-2 items-center">
@@ -7,8 +9,7 @@ export default function Banner(){
         <div className="text-center text-white">
             <h2>UTFPRTEC</h2>
             <h3>MELHOR ESCOLA DE INFORMÁTICA</h3>
-            <button className="bg-green-500 px-4 py-2 rounded-lg hover:text-black m-4 " >Informações</button>
-
+            <MyButton> Saiba Mais  </MyButton>
         </div>
     </div>
     )
