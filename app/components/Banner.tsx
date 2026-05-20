@@ -9,7 +9,7 @@ export default function Banner(){
         <div className="text-center text-white">
             <h2>UTFPRTEC</h2>
             <h3>MELHOR ESCOLA DE INFORMÁTICA</h3>
-            <MyButton> Saiba Mais  </MyButton>
+            <MyButton> <strong> Saiba Mais</strong>  </MyButton>
         </div>
     </div>
     )

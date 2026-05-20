@@ -1,3 +1,4 @@
+import CourseCard from "../components/CourseCard";
 import Header from "../components/Header";
 import MyButton from "../components/MyButton";
 
@@ -5,6 +6,8 @@ export default function page() {
 
     return (
         <div>
+           
+           <CourseCard href="/coursehtml" image="/img/html.svg" title="Curso de HTML" description="Conheça o curso de HTML que é o melhor..." />
            
             <div className="container mx-auto p-4">
                 <h1 className="text-3xl font-bold mb-4">Sobre o Curso de HTML</h1>
